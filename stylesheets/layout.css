@@ -9,7 +9,7 @@
 		- MAIN
 		- MASTHEAD
 		- FOOTER
-
+		
 	#Section Styles
 		- HERO
 		- BOOK
@@ -23,10 +23,10 @@
 	#Media Queries
 		- MOBILE
 		- TABLET*/
-
-
-
-
+		
+	
+	
+	
 /* #Site Styles - Sticker UI Book CSS Styles 05.10.14
 ================================================== */
 
@@ -49,11 +49,11 @@ a:hover {
 h1 {
 	font: 500 58px/60px 'Open Sans', sans-serif;
     color: #000000;}
-
+    
 h2 {
 	font: 400 28px/32px 'Open Sans', sans-serif;
     color: #000000;}
-
+    
 h3 {
 	font: 300 24px/32px 'Open Sans', sans-serif;
     color: #000000;}
@@ -61,8 +61,8 @@ h3 {
 p{
     font: 300 16px/24px 'Open Sans', sans-serif;
 	color: #000000;}
-
-img{
+	
+img{ 
 	border:0px;	}
 
 .text {
@@ -70,7 +70,7 @@ img{
 	padding-bottom: 100px;}
 
 
-.main-button {
+.main-button {  
 	background-color: #231f20;
 	border: solid 1px #888;
 	border-radius:28px;
@@ -115,11 +115,11 @@ img{
 
 .header nav ul {
     list-style: none;
-    width:100%;}
+    width:100%;}    
 
 .header nav li {
-	list-style: none;
-	display: inline-block;
+	list-style: none; 
+	display: inline-block; 
 	text-align:left;
 	vertical-align: middle;
 	text-wrap:none;
@@ -127,24 +127,24 @@ img{
 	padding-right:28px;
 	font: 700 14px/18px "open sans";
 	text-transform: uppercase;
-}
+}    
 
 .header nav li a{
 	text-decoration: none;
 	color: #000;
-}
+} 
 
 .header nav li a:hover{
 	color: #5fb881;
-}
+}    
 
-#killerinc-nav-item{
-	xpadding-right: 324px;}
+#killerinc-nav-item{		
+	padding-right: 324px;}
 
 
 #killerinc-nav-item object{
 	width:108px;
-	height:auto;}
+	height:auto;} 
 
 
 #products-nav-item {
@@ -172,7 +172,7 @@ img{
 .text.hero h1 {
 	font: 400 28px/42px "open sans";
 	color: #000000;
-	xtext-transform: uppercase;
+	text-transform: uppercase;
 	text-align:center;}
 
 .text.hero object {
@@ -181,7 +181,7 @@ img{
 	text-align: center;
 	padding-top:96px;
 	padding-bottom: 32px;
-	display:block;
+	display:block; 
 	margin: auto;}
 
 
@@ -229,8 +229,8 @@ img{
    	font: 400 24px/28px "open sans";
 	color: #302f2c;
 	xdisplay:inline;}
-
-.text.product .product-item{
+	
+.text.product .product-item{	
 	xbackground: #f0f0f0 url("../images/killerinc_stickeruibook-hero.jpg") no-repeat center center;
 	xbackground-size: cover;
 	cursor: pointer;
@@ -244,9 +244,9 @@ img{
 	position: relative;
 	top: 1px;
 	right: 0px;}
-
-
-.text.product .product-item .product-info button.prod-button {
+	
+	
+.text.product .product-item .product-info button.prod-button {  
 	background-color: #5fb881;
 	border-radius:18px;
 	border: none;
@@ -270,7 +270,7 @@ img{
 	-webkit-transition-property: all;
 	-webkit-transition-timing-function: ease;}
 
-.text.product .product-item .product-info button.prod-button:hover {
+.text.product .product-item .product-info button.prod-button:hover {  
 	background-color: #000000;
     color: white;}
 
@@ -300,7 +300,7 @@ img{
 	background: #FFF;
 	padding-top: 48px;
 	padding-bottom:48px;}
-
+	
 .text.who-we-are h2 {
    	font: 700 28px/32px "open sans";
    	text-transform: uppercase;
@@ -313,14 +313,14 @@ img{
 	border-radius: 102px;
 	xheight: 200px;
 	width: auto;}
-
+	
 .text.who-we-are h3 {
 	font: 400 24px/28px "open sans";}
-
+	
 .text.who-we-are p {
     font: 300 16px/24px 'Open Sans', sans-serif;
 	color: #000000;}
-
+	
 
 
 /* TEXT WHO WE ARE - Jen */
@@ -328,7 +328,7 @@ img{
 .text.who-we-are-jen {
 	padding-top: 0px;
 	padding-bottom: 132px;}
-
+	
 .text.who-we-are-jen h2 {
    	font: 700 28px/32px "open sans";
    	text-transform: uppercase;
@@ -339,10 +339,10 @@ img{
 
 .text.who-we-are-jen img {
 	border-radius: 102px;}
-
+	
 .text.who-we-are-jen h3 {
 	font: 400 24px/28px "open sans";}
-
+	
 .text.who-we-are-jen p {
     font: 300 16px/24px 'Open Sans', sans-serif;
 	color: #000000;}
@@ -364,7 +364,7 @@ img{
 	color: #c5c5c5;
 	text-align: center;
 	padding-top: 100px;}
-
+	
 .text.killer h3{
 	font: 400 16px/24px "open sans";
 	color: #c5c5c5;
@@ -373,7 +373,7 @@ img{
 .text.killer p{
 	font: 400 12px/18px "open sans";
 	color: #b5b5b5;
-	padding-top:0px;
+	padding-top:0px;	
 	padding-bottom: 28px;
 }
 
@@ -395,7 +395,7 @@ img{
 .text.killer input{
 	background-color: #333;
 	border: none;
-	box-shadow: none !important;
+	box-shadow: none !important; 
 	color: #f0f0f0;
 	font: 300 14px/24px 'Open Sans';
 	height: 42px;
@@ -409,7 +409,7 @@ img{
 .text.killer textarea {
 	background-color: #333;
 	border: none;
-	box-shadow: none !important;
+	box-shadow: none !important; 
 	color: #f0f0f0;
 	font: 300 14px/24px 'Open Sans';
 	height: 112px;
@@ -432,7 +432,7 @@ img{
 	background-color: #333;
 	border: none;
 	border-radius:28px;
-	box-shadow: none !important;
+	box-shadow: none !important; 
 	color: #c5c5c5;
 	font: 400 18px/24px 'Open Sans';
 	height: 50px;
@@ -466,11 +466,6 @@ img{
 	text-align: left;
 }
 
-.text.killer object{
-	width: 150px;
-	height:auto
-}
-
 /* TEXT THANKS */
 
 .text.thanks{
@@ -491,7 +486,7 @@ img{
 	color: #c5c5c5;
 	text-align: center;
 	padding-bottom: 24px;}
-
+	
 
 .text.thanks p{
 	font: 400 16px/24px "open sans";
@@ -529,7 +524,7 @@ img{
 	color: #c5c5c5;
 	xtext-align: left;
 	padding-bottom: 24px;}
-
+	
 .text.passcode p{
 	font: 400 14px/20px "open sans";
 	color: #b5b5b5;
@@ -547,7 +542,7 @@ img{
 .text.passcode input{
 	background-color: #333;
 	border: none;
-	box-shadow: none !important;
+	box-shadow: none !important; 
 	color: #f0f0f0;
 	font: 300 14px/24px 'Open Sans';
 	height: 42px;
@@ -556,7 +551,7 @@ img{
 	-webkit-font-smoothing: sub-antialiased;
 	-webkit-appearance: none;
 	width: 92%;}
-
+	
 .text.passcode input:focus {
 	background-color: #555;
 }
@@ -565,7 +560,7 @@ img{
 	background-color: #333;
 	border: none;
 	border-radius:28px;
-	box-shadow: none !important;
+	box-shadow: none !important; 
 	color: #fff;
 	font: 600 18px/24px 'Open Sans';
 	height: 52px;
@@ -607,7 +602,7 @@ img{
 
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {
-
+			
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -616,51 +611,51 @@ img{
 			max-width: 460px;
 			height: 248px;
 		}
-
-		#killerinc-nav-item{
+		
+		#killerinc-nav-item{		
 			padding-right: 224px;}
 
 	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-
-		#killerinc-nav-item{
+	
+		#killerinc-nav-item{		
 			padding-right: 124px;}
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 530px) and (max-width: 767px) {
-
+		
 		img, iframe, object {
 			max-width: 400px;
 			height: auto;
 		}
-
-		#killerinc-nav-item{
+		
+		#killerinc-nav-item{		
 			padding-right: 0px;}
-
+			
 		#xkillerinc-nav-item{
-			display:none;}
+			display:none;} 
 
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 529px) {
-
+		
 		img, iframe, object {
 			max-width: 272px;
 			height: auto;
 		}
 
-		#killerinc-nav-item{
+		#killerinc-nav-item{		
 			padding-right: 32px;}
-
+			
 		#about-nav-item{
-			display:none;}
+			display:none;} 
 		#contact-nav-item{
-			display:none;}
+			display:none;} 
 		#xproducts-nav-item{
-			display:none;}
-
+			display:none;} 
+	
 	}

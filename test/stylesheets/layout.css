@@ -1,0 +1,542 @@
+/*
+* Killer inc. Design Products
+* Jennifer Williams & Brandy Bora
+* May 2014
+*/
+/* Table of Content
+==================================================
+	#Site Styles
+		- MAIN
+		- MASTHEAD
+		- FOOTER
+		
+	#Section Styles
+		- HERO
+		- BOOK
+		- DKIT
+		- WIRES
+		- STICKER
+		- EDGE
+		- SIMPLE
+		- EVOLVE
+		- QUALITY
+	#Media Queries
+		- MOBILE
+		- TABLET*/
+		
+	
+	
+	
+/* #Site Styles - Sticker UI Book CSS Styles 05.10.14
+================================================== */
+
+/* MAIN */
+
+body {
+	margin:0;
+	padding:0;}
+
+
+a {
+    color: #231F20;
+	text-decoration:none;}
+
+a:hover {
+    opacity:0.8;
+    filter:alpha(opacity=80);}
+
+
+h1 {
+	font: 500 58px/60px 'Open Sans', sans-serif;
+    color: #000000;}
+    
+h2 {
+	font: 400 28px/32px 'Open Sans', sans-serif;
+    color: #000000;}
+    
+h3 {
+	font: 300 24px/32px 'Open Sans', sans-serif;
+    color: #000000;}
+
+p{
+    font: 300 16px/24px 'Open Sans', sans-serif;
+	color: #000000;}
+	
+img{ 
+	border:0px;	}
+
+.text {
+	padding-top: 100px;
+	padding-bottom: 100px;}
+
+
+.main-button {  
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid;
+	border-color: rgb(17, 17, 17);
+	border-radius:4px;
+	box-sizing: border-box;
+	color: rgb(17, 17, 17);
+	font-family: Antenna, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 60px;
+	margin-top: 24px;
+	padding-top: 21px 30px 21px 30px;
+	text-align: center;
+	text-decoration: none solid rgb(17, 17, 17);
+	text-transform: uppercase;
+	transition-delay: 0s;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease;
+	width: 198px;}
+
+.main-button:hover {
+    background-color: #000000;
+    color: white;}
+
+
+
+
+/* ================================================== */
+/* MASTHEAD */
+
+.header {
+	height: 124px;
+	background-color: rgba(255,255,255,0.80);
+	width:100%;
+	position: fixed;
+	z-index:9999999;}
+
+.header nav {
+    padding-top:48px;
+    text-align:center}
+
+.header nav ul {
+    list-style: none;
+    width:100%;}    
+
+.header nav li {
+	list-style: none; 
+	display: inline-block; 
+	text-align:left;
+	vertical-align: middle;
+	text-wrap:none;
+	padding-left:28px;
+	padding-right:28px;
+	font: 700 14px/18px "open sans";
+	text-transform: uppercase;
+}    
+
+.header nav li a{
+	text-decoration: none;
+	color: #231F20;
+}    
+
+#killerinc-nav-item{		
+	padding-right: 324px;}
+
+
+#killerinc-nav-item object{
+	width:108px;
+	height:auto;} 
+
+
+#products-nav-item {
+}
+
+#about-nav-item {
+}
+
+#contact-nav-item {
+}
+
+
+/* FOOTER */
+
+
+
+/* TEXT HERO */
+
+.text.hero {
+	background: #FFFFFF url('../images/killerinc_art-deco-pattern.png') repeat;
+	height: 694px;
+	padding-top: 0px;
+	padding-bottom: 0px;}
+
+.text.hero h1 {
+	font: 400 28px/42px "open sans";
+	color: #000000;
+	text-transform: uppercase;
+	text-align:center;}
+
+.text.hero object {
+	width: 228px;
+	height: auto;
+	text-align: center;
+	padding-top:196px;
+	padding-bottom: 32px;
+	display:block; 
+	margin: auto;}
+
+
+
+/* TEXT ABOUT */
+
+.text.about {
+	background: #FFFFFF;
+}
+
+.text.about h2 {
+    text-align:center;
+    padding-bottom: 24px;
+}
+
+.text.about object{
+	width: 64px;
+	height: auto;
+	padding-bottom:18px;}
+
+
+.text.about p {
+	border-top: 2px solid #231f20;
+	border-bottom: 2px solid #231f20;
+	padding: 18px 0 18px 0;}
+
+.text.about img{
+	text-align: center;
+	height: 82px;
+	width: auto;}
+
+
+/* TEXT PRODUCTS */
+
+.text.product {
+	background: #f0f0f0;
+}
+
+.text.product h2 {
+   	font: 700 28px/32px "open sans";
+   	text-transform: uppercase;
+	color: #302f2c;
+	text-align: center;
+	padding-bottom: 64px;}
+
+.text.product h3 {
+   	font: 400 24px/28px "open sans";
+	color: #302f2c;}
+
+.text.product img {
+	border-radius: 5px;
+	width: 464px;
+	height: auto;}
+	
+.text.product object {
+	border-radius: 5px;
+	width: 464px;
+	height: auto;}
+	
+.text.product form{
+	text-align: right;}
+	
+.text.product button.prod-button {  
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease;
+	background-color: rgb(95, 184, 129);
+	border: 2px solid;
+	border-color: rgb(95, 184, 129);
+	border-radius:18px;
+	box-sizing: border-box;
+	color: #fff;
+	font: 400 20px/0px "open sans";
+	height: 36px;
+	text-align: center;
+	text-decoration: none solid rgb(17, 17, 17);
+	transition-delay: 0s;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease;
+	width: 68px;}
+
+.text.product a {
+	font-weight: 600;
+    color: #5fb881;
+	text-decoration:none;
+	line-height: 72px;}
+
+.text.product a:hover {
+    outline:0;}
+
+
+
+
+
+/* TEXT WHO WE ARE */
+
+.text.who-we-are {
+	background: #FFF;
+	padding-top: 48px;
+	padding-bottom:48px;}
+	
+.text.who-we-are h2 {
+   	font: 700 28px/32px "open sans";
+   	text-transform: uppercase;
+	color: #302f2c;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 64px;}
+
+.text.who-we-are img {
+	border-radius: 102px;
+	height: 200px;
+	width: auto;}
+	
+.text.who-we-are h3 {
+	font: 400 24px/28px "open sans";}
+	
+.text.who-we-are p {
+    font: 300 16px/24px 'Open Sans', sans-serif;
+	color: #000000;}
+	
+/* TEXT WHO WE ARE - Jen */
+
+.text.who-we-are-jen {
+	padding-top: 0px;
+	padding-bottom: 132px;}
+	
+.text.who-we-are-jen h2 {
+   	font: 700 28px/32px "open sans";
+   	text-transform: uppercase;
+	color: #302f2c;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 64px;}
+
+.text.who-we-are-jen img {
+	border-radius: 102px;
+	height: 200px;
+	width: auto;}
+	
+.text.who-we-are-jen h3 {
+	font: 400 24px/28px "open sans";}
+	
+.text.who-we-are-jen p {
+    font: 300 16px/24px 'Open Sans', sans-serif;
+	color: #000000;}
+
+
+
+/* TEXT KILLER */
+
+.text.killer{
+	background: #FFDF59;
+	text-align: center;
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+.text.killer img{
+	width: 92px;
+	height:auto;
+}
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+			
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		img, iframe {
+			max-width: 460px;
+			border:2px;
+		}
+		
+		.notes {
+			xfloat:left;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	
+		/* Post Meta Content */	
+		.notes {
+			float:left;
+		}
+
+		/* Text 2 Col Post */
+		.post.text {
+			padding-top: 84px;
+			padding-bottom: 64px;
+		}
+		
+		.post.text h2 {
+			font: 900 42px/42px "open sans";
+			text-align:left;
+		}
+
+		.post.text .content p {
+			column-count: 1;
+			-moz-column-count: 1; /* Firefox */
+			-webkit-column-count: 1; /* Safari and Chrome */
+			padding-top:10px;
+		}
+		
+		.post.text .content{
+			padding-bottom: 24px;
+		}
+		
+		/* Text 3 Col Post */
+		.post.chat {
+			padding-top: 64px;
+			padding-bottom: 64px;
+		}
+
+		.post.chat .content {
+			column-count: 1;
+		 	-moz-column-count: 1; /* Firefox */
+    		-webkit-column-count: 1; /* Safari and Chrome */
+    		padding-bottom:24px;
+    	}
+    	
+    	/* Link Post */
+		.post.link {
+			padding-top: 84px;
+			padding-bottom: 64px;
+		}
+		
+		.post.link .content {
+			font: 400 16px/24px "pt serif";
+			-moz-column-count: 1; /* Firefox */
+			-webkit-column-count: 1; /* Safari and Chrome */
+			column-count: 1;
+			padding-bottom:24px;
+		}
+		
+		/* Quote Post */
+		.post.quote {
+			padding-top: 100px;
+			padding-bottom: 64px;
+		}
+		
+		.post.quote .content {
+			padding-bottom:24px;
+		}
+		
+		/* Photo Post */
+		.post.photo {
+			padding-top: 84px;
+			padding-bottom: 64px;
+		}
+		
+		/* Photo Video */
+		.post.video {
+			padding-top: 84px;
+			padding-bottom: 64px;
+		}
+		
+		img, iframe {
+			max-width: 400px;
+			border:2px;
+		}
+		
+		.post.video p, .post.photo p {
+			padding-bottom:24px;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.header nav {
+			padding-left:24px;
+			padding-right:24px;
+		}
+
+		.header nav ul {
+		 	text-align:left;
+		}
+		#posts-nav-item, #about-me-nav-item, #contact-nav-item {
+			float:none;
+			display: inline-block; 
+			font: 700 11px/17px "open sans";
+			padding: 20px 10px 10px 0px;
+		}
+		.header nav li img {
+			display: none; 
+		}
+		#logo-nav-item {
+			float:right;
+		}
+		#logo-nav-item img {
+			display: inline;
+		}
+		
+		img, iframe {
+			max-width: 400px;
+			border:2px;
+		}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.header nav {
+			padding-left:14px;
+			padding-right:14px;
+		}
+		#select-nav-item { display: inline-block; }
+		#select-nav-item select { height: 32px; width: 218px; margin-top: 16px; }
+
+		#posts-nav-item, #about-me-nav-item, #contact-nav-item { display: none; }
+		
+		#logo-nav-item a:first-child {
+			display: none;
+		}
+		
+		img, iframe {
+			max-width: 272px;
+			border:2px;
+		}
+
+		/* Text 2 Col Post */
+		.xpost.text {
+			padding-top:28px;
+		}
+
+		.xpost.text h2 {
+			font: 700 32px/32px "open sans";
+		}
+    	
+    	/* Link Post */
+		.xpost.link {
+			padding-top:36px;
+		}
+
+		.xpost.link h2 {
+			font: 900 28px/36px "pt sans narrow";
+		}
+	
+	}
