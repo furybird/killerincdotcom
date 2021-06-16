@@ -1,0 +1,666 @@
+/*
+* Killer inc. Design Products
+* Jennifer Williams & Brandy Bora
+* May 2014
+*/
+/* Table of Content
+==================================================
+	#Site Styles
+		- MAIN
+		- MASTHEAD
+		- FOOTER
+
+	#Section Styles
+		- HERO
+		- BOOK
+		- DKIT
+		- WIRES
+		- STICKER
+		- EDGE
+		- SIMPLE
+		- EVOLVE
+		- QUALITY
+	#Media Queries
+		- MOBILE
+		- TABLET*/
+
+
+
+
+/* #Site Styles - Sticker UI Book CSS Styles 05.10.14
+================================================== */
+
+/* MAIN */
+
+body {
+	margin:0;
+	padding:0;}
+
+
+a {
+    color: #231F20;
+	text-decoration:none;}
+
+a:hover {
+    opacity:0.8;
+    filter:alpha(opacity=80);}
+
+
+h1 {
+	font: 500 58px/60px 'Open Sans', sans-serif;
+    color: #000000;}
+
+h2 {
+	font: 400 28px/32px 'Open Sans', sans-serif;
+    color: #000000;}
+
+h3 {
+	font: 300 24px/32px 'Open Sans', sans-serif;
+    color: #000000;}
+
+p{
+    font: 300 16px/24px 'Open Sans', sans-serif;
+	color: #000000;}
+
+img{
+	border:0px;	}
+
+.text {
+	padding-top: 100px;
+	padding-bottom: 100px;}
+
+
+.main-button {
+	background-color: #231f20;
+	border: solid 1px #888;
+	border-radius:28px;
+	color: #fff;
+	font: 400 18px/24px 'Open Sans';
+	height: 54px;
+	margin-top: 64px;
+	text-align: center;
+	text-decoration: none;
+	transition-delay: 0s;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease;
+	width: 212px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease;}
+
+.main-button:hover {
+    background-color: #5fb881;
+    color: white;
+    border: none;}
+
+.main-button:focus {outline:0;}
+
+
+/* ================================================== */
+/* MASTHEAD */
+
+.header {
+	height: 124px;
+	background-color: rgba(255,255,255,0.80);
+	width:100%;
+	xposition: fixed;
+	z-index:9999999;}
+
+.header nav {
+    padding-top:48px;
+    text-align:center}
+
+.header nav ul {
+    list-style: none;
+    width:100%;}
+
+.header nav li {
+	list-style: none;
+	display: inline-block;
+	text-align:left;
+	vertical-align: middle;
+	text-wrap:none;
+	padding-left:28px;
+	padding-right:28px;
+	font: 700 14px/18px "open sans";
+	text-transform: uppercase;
+}
+
+.header nav li a{
+	text-decoration: none;
+	color: #000;
+}
+
+.header nav li a:hover{
+	color: #5fb881;
+}
+
+#killerinc-nav-item{
+	xpadding-right: 324px;}
+
+
+#killerinc-nav-item object{
+	width:108px;
+	height:auto;}
+
+
+#products-nav-item {
+}
+
+#about-nav-item {
+}
+
+#contact-nav-item {
+}
+
+
+/* FOOTER */
+
+
+
+/* TEXT HERO */
+
+.text.hero {
+	background: #FFFFFF url('../images/killerinc_art-deco-pattern.png') repeat;
+	height: 600px;
+	padding-top: 0px;
+	padding-bottom: 0px;}
+
+.text.hero h1 {
+	font: 400 28px/42px "open sans";
+	color: #000000;
+	xtext-transform: uppercase;
+	text-align:center;}
+
+.text.hero object {
+	width: 228px;
+	height: auto;
+	text-align: center;
+	padding-top:96px;
+	padding-bottom: 32px;
+	display:block;
+	margin: auto;}
+
+
+
+/* TEXT ABOUT */
+
+.text.about {
+	background: #FFFFFF;
+}
+
+.text.about h2 {
+    text-align:center;
+    padding-bottom: 24px;
+}
+
+.text.about object{
+	width: 64px;
+	height: auto;
+	padding-bottom:18px;}
+
+
+.text.about p {
+	border-top: 2px solid #231f20;
+	border-bottom: 2px solid #231f20;
+	padding: 18px 0 18px 0;}
+
+.text.about img{
+	text-align: center;}
+
+
+/* TEXT PRODUCTS */
+
+.text.product {
+	background: #f0f0f0;
+}
+
+.text.product h2 {
+   	font: 700 28px/32px "open sans";
+   	text-transform: uppercase;
+	color: #302f2c;
+	text-align: center;
+	padding-bottom: 64px;}
+
+.text.product h4 {
+   	font: 400 24px/28px "open sans";
+	color: #302f2c;
+	xdisplay:inline;}
+
+.text.product .product-item{
+	xbackground: #f0f0f0 url("../images/killerinc_stickeruibook-hero.jpg") no-repeat center center;
+	xbackground-size: cover;
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 5px;
+	box-sizing: border-box;
+	position: relative;}
+
+
+.text.product .product-item .product-info{
+	position: relative;
+	top: 1px;
+	right: 0px;}
+
+
+.text.product .product-item .product-info button.prod-button {
+	background-color: #5fb881;
+	border-radius:18px;
+	border: none;
+	box-sizing: border-box;
+	color: #fff;
+	font: 400 20px/0px "open sans";
+	height: 36px;
+	position: absolute;
+	top: -2px;
+	right: 0;
+	text-align: center;
+	text-decoration: none;
+	transition-delay: 0s;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease;
+	width: 68px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease;}
+
+.text.product .product-item .product-info button.prod-button:hover {
+	background-color: #000000;
+    color: white;}
+
+.text.product a {
+	font-weight: 600;
+    color: #5fb881;
+	text-decoration:none;
+	line-height: 72px;}
+
+.text.product a:hover {
+    outline:0;}
+
+.text.product .product-item .product-info .permalink{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;}
+
+
+
+
+/* TEXT WHO WE ARE */
+
+.text.who-we-are {
+	background: #FFF;
+	padding-top: 48px;
+	padding-bottom:48px;}
+
+.text.who-we-are h2 {
+   	font: 700 28px/32px "open sans";
+   	text-transform: uppercase;
+	color: #302f2c;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 64px;}
+
+.text.who-we-are img {
+	border-radius: 102px;
+	xheight: 200px;
+	width: auto;}
+
+.text.who-we-are h3 {
+	font: 400 24px/28px "open sans";}
+
+.text.who-we-are p {
+    font: 300 16px/24px 'Open Sans', sans-serif;
+	color: #000000;}
+
+
+
+/* TEXT WHO WE ARE - Jen */
+
+.text.who-we-are-jen {
+	padding-top: 0px;
+	padding-bottom: 132px;}
+
+.text.who-we-are-jen h2 {
+   	font: 700 28px/32px "open sans";
+   	text-transform: uppercase;
+	color: #302f2c;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 64px;}
+
+.text.who-we-are-jen img {
+	border-radius: 102px;}
+
+.text.who-we-are-jen h3 {
+	font: 400 24px/28px "open sans";}
+
+.text.who-we-are-jen p {
+    font: 300 16px/24px 'Open Sans', sans-serif;
+	color: #000000;}
+
+
+
+/* TEXT KILLER */
+
+.text.killer{
+	background: #231f20;
+	text-align: center;
+	padding-top: 48px;
+	padding-bottom: 160px;
+}
+
+.text.killer h2{
+	font: 700 28px/26px "open sans";
+   	text-transform: uppercase;
+	color: #c5c5c5;
+	text-align: center;
+	padding-top: 100px;}
+
+.text.killer h3{
+	font: 400 16px/24px "open sans";
+	color: #c5c5c5;
+}
+
+.text.killer p{
+	font: 400 12px/18px "open sans";
+	color: #b5b5b5;
+	padding-top:0px;
+	padding-bottom: 28px;
+}
+
+
+.text.killer a{
+	xfont: 600 12px/18px "open sans";
+	color: #5fb881;
+}
+
+.text.killer object{
+	width: 120px;
+	height:auto;
+	padding-top:42px;
+}
+
+.text.killer form{
+	padding-left: 12px;}
+
+.text.killer input{
+	background-color: #333;
+	border: none;
+	box-shadow: none !important;
+	color: #f0f0f0;
+	font: 300 14px/24px 'Open Sans';
+	height: 42px;
+	padding: 4px 12px 0px 12px;
+	margin-bottom: 0px;
+	xtext-align: center;
+	-webkit-font-smoothing: sub-antialiased;
+	-webkit-appearance: none;
+	width: 92%;}
+
+.text.killer textarea {
+	background-color: #333;
+	border: none;
+	box-shadow: none !important;
+	color: #f0f0f0;
+	font: 300 14px/24px 'Open Sans';
+	height: 112px;
+	padding: 10px 12px 10px 12px;
+	xtext-align: center;
+	-webkit-font-smoothing: sub-antialiased;
+	-webkit-appearance: none;
+	width: 92%; }
+
+
+.text.killer textarea:focus{
+	background-color: #555;
+}
+
+.text.killer input:focus {
+	background-color: #555;
+}
+
+.text.killer .main-button {
+	background-color: #333;
+	border: none;
+	border-radius:28px;
+	box-shadow: none !important;
+	color: #c5c5c5;
+	font: 400 18px/24px 'Open Sans';
+	height: 50px;
+	margin-top: 42px;
+	padding-bottom:6px;
+	text-align: center;
+	text-decoration: none;
+	transition-delay: 0s;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease;
+	width: 212px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease;
+	-webkit-appearance: none;
+}
+
+.text.killer .main-button:hover {
+    background-color: #5fb881;
+    color: white;
+    border: none;}
+
+
+.text.killer label {
+	font: 600 16px/24px 'Open Sans';
+	color: #999;
+	padding-bottom:8px;
+	text-align: left;
+}
+
+.text.killer object{
+	width: 150px;
+	height:auto
+}
+
+/* TEXT THANKS */
+
+.text.thanks{
+	background: #231f20;
+	text-align: center;
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+.text.thanks object{
+	width: 72px;
+	height:auto
+}
+
+.text.thanks h2{
+	font: 600 28px/32px "open sans";
+   	xtext-transform: uppercase;
+	color: #c5c5c5;
+	text-align: center;
+	padding-bottom: 24px;}
+
+
+.text.thanks p{
+	font: 400 16px/24px "open sans";
+	color: #b5b5b5;
+	padding-bottom: 82px;
+}
+
+
+.text.thanks a{
+	font: 600 16px/24px "open sans";
+	color: #5fb881;
+}
+
+
+
+/* TEXT PASSCODE */
+
+.text.passcode{
+	background: #231f20;
+	text-align: left;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.text.passcode object{
+	width: 124px;
+	height:auto;
+	padding-bottom: 8px;
+	margin-left: -24px;
+}
+
+.text.passcode h2{
+	font: 600 28px/32px "open sans";
+   	xtext-transform: uppercase;
+	color: #c5c5c5;
+	xtext-align: left;
+	padding-bottom: 24px;}
+
+.text.passcode p{
+	font: 400 14px/20px "open sans";
+	color: #b5b5b5;
+	padding-bottom: 8px;
+}
+
+.text.passcode a{
+	font: 600 16px/24px "open sans";
+	color: #5fb881;
+}
+
+.text.passcode form{
+	xpadding-left: 12px;}
+
+.text.passcode input{
+	background-color: #333;
+	border: none;
+	box-shadow: none !important;
+	color: #f0f0f0;
+	font: 300 14px/24px 'Open Sans';
+	height: 42px;
+	padding: 0px 12px 4px 12px;
+	xtext-align: center;
+	-webkit-font-smoothing: sub-antialiased;
+	-webkit-appearance: none;
+	width: 92%;}
+
+.text.passcode input:focus {
+	background-color: #555;
+}
+
+.text.passcode .main-button {
+	background-color: #333;
+	border: none;
+	border-radius:28px;
+	box-shadow: none !important;
+	color: #fff;
+	font: 600 18px/24px 'Open Sans';
+	height: 52px;
+	margin-top: 18px;
+	text-align: center;
+	text-decoration: none;
+	transition-delay: 0s;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease;
+	width: 212px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-property: all;
+	-webkit-transition-timing-function: ease;
+	-webkit-appearance: none;
+}
+
+.text.passcode .main-button:hover {
+    background-color: #5fb881;
+    color: white;
+    border: none;}
+
+
+.text.passcode label {
+	font: 600 16px/24px 'Open Sans';
+	color: #999;
+	padding-bottom:8px;
+	text-align: left;
+}
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		img, iframe, object {
+			max-width: 460px;
+			height: 248px;
+		}
+
+		#killerinc-nav-item{
+			padding-right: 224px;}
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+		#killerinc-nav-item{
+			padding-right: 124px;}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 530px) and (max-width: 767px) {
+
+		img, iframe, object {
+			max-width: 400px;
+			height: auto;
+		}
+
+		#killerinc-nav-item{
+			padding-right: 0px;}
+
+		#xkillerinc-nav-item{
+			display:none;}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 529px) {
+
+		img, iframe, object {
+			max-width: 272px;
+			height: auto;
+		}
+
+		#killerinc-nav-item{
+			padding-right: 32px;}
+
+		#about-nav-item{
+			display:none;}
+		#contact-nav-item{
+			display:none;}
+		#xproducts-nav-item{
+			display:none;}
+
+	}
