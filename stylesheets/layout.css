@@ -9,7 +9,7 @@
 		- MAIN
 		- MASTHEAD
 		- FOOTER
-		
+
 	#Section Styles
 		- HERO
 		- BOOK
@@ -23,10 +23,10 @@
 	#Media Queries
 		- MOBILE
 		- TABLET*/
-		
-	
-	
-	
+
+
+
+
 /* #Site Styles - Sticker UI Book CSS Styles 05.10.14
 ================================================== */
 
@@ -47,22 +47,26 @@ a:hover {
 
 
 h1 {
-	font: 500 58px/60px 'Open Sans', sans-serif;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 500 58px/60px;
     color: #000000;}
-    
+
 h2 {
-	font: 400 28px/32px 'Open Sans', sans-serif;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 400 28px/32px;
     color: #000000;}
-    
+
 h3 {
-	font: 300 24px/32px 'Open Sans', sans-serif;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 300 24px/32px ;
     color: #000000;}
 
 p{
-    font: 300 16px/24px 'Open Sans', sans-serif;
-	color: #000000;}
-	
-img{ 
+		font-family: 'Open Sans', sans-serif;
+		font-size: 300 16px/24px;
+		color: #000000;}
+
+img{
 	border:0px;	}
 
 .text {
@@ -70,12 +74,13 @@ img{
 	padding-bottom: 100px;}
 
 
-.main-button {  
+.main-button {
 	background-color: #231f20;
 	border: solid 1px #888;
 	border-radius:28px;
 	color: #fff;
-	font: 400 18px/24px 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
+	font-size:400 18px/24px;
 	height: 54px;
 	margin-top: 64px;
 	text-align: center;
@@ -115,36 +120,37 @@ img{
 
 .header nav ul {
     list-style: none;
-    width:100%;}    
+    width:100%;}
 
 .header nav li {
-	list-style: none; 
-	display: inline-block; 
+	list-style: none;
+	display: inline-block;
 	text-align:left;
 	vertical-align: middle;
 	text-wrap:none;
 	padding-left:28px;
 	padding-right:28px;
-	font: 700 14px/18px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 700 14px/18px;
 	text-transform: uppercase;
-}    
+}
 
 .header nav li a{
 	text-decoration: none;
 	color: #000;
-} 
+}
 
 .header nav li a:hover{
 	color: #5fb881;
-}    
+}
 
-#killerinc-nav-item{		
+#killerinc-nav-item{
 	padding-right: 324px;}
 
 
 #killerinc-nav-item object{
 	width:108px;
-	height:auto;} 
+	height:auto;}
 
 
 #products-nav-item {
@@ -170,7 +176,8 @@ img{
 	padding-bottom: 0px;}
 
 .text.hero h1 {
-	font: 400 28px/42px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 28px/42px;
 	color: #000000;
 	text-transform: uppercase;
 	text-align:center;}
@@ -181,7 +188,7 @@ img{
 	text-align: center;
 	padding-top:96px;
 	padding-bottom: 32px;
-	display:block; 
+	display:block;
 	margin: auto;}
 
 
@@ -219,18 +226,20 @@ img{
 }
 
 .text.product h2 {
-   	font: 700 28px/32px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 00 28px/32px;
    	text-transform: uppercase;
 	color: #302f2c;
 	text-align: center;
 	padding-bottom: 64px;}
 
 .text.product h4 {
-   	font: 400 24px/28px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 24px/28px;
 	color: #302f2c;
 	xdisplay:inline;}
-	
-.text.product .product-item{	
+
+.text.product .product-item{
 	xbackground: #f0f0f0 url("../images/killerinc_stickeruibook-hero.jpg") no-repeat center center;
 	xbackground-size: cover;
 	cursor: pointer;
@@ -244,15 +253,16 @@ img{
 	position: relative;
 	top: 1px;
 	right: 0px;}
-	
-	
-.text.product .product-item .product-info button.prod-button {  
+
+
+.text.product .product-item .product-info button.prod-button {
 	background-color: #5fb881;
 	border-radius:18px;
 	border: none;
 	box-sizing: border-box;
 	color: #fff;
-	font: 400 20px/0px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 20px/0px;
 	height: 36px;
 	position: absolute;
 	top: -2px;
@@ -270,7 +280,7 @@ img{
 	-webkit-transition-property: all;
 	-webkit-transition-timing-function: ease;}
 
-.text.product .product-item .product-info button.prod-button:hover {  
+.text.product .product-item .product-info button.prod-button:hover {
 	background-color: #000000;
     color: white;}
 
@@ -300,10 +310,11 @@ img{
 	background: #FFF;
 	padding-top: 48px;
 	padding-bottom:48px;}
-	
+
 .text.who-we-are h2 {
-   	font: 700 28px/32px "open sans";
-   	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 700 28px/32px;
+  text-transform: uppercase;
 	color: #302f2c;
 	text-align: center;
 	padding-top: 100px;
@@ -313,14 +324,16 @@ img{
 	border-radius: 102px;
 	xheight: 200px;
 	width: auto;}
-	
+
 .text.who-we-are h3 {
-	font: 400 24px/28px "open sans";}
-	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 24px/28px;}
+
 .text.who-we-are p {
-    font: 300 16px/24px 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 300 16px/24px;
 	color: #000000;}
-	
+
 
 
 /* TEXT WHO WE ARE - Jen */
@@ -328,9 +341,10 @@ img{
 .text.who-we-are-jen {
 	padding-top: 0px;
 	padding-bottom: 132px;}
-	
+
 .text.who-we-are-jen h2 {
-   	font: 700 28px/32px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 700 28px/32px;
    	text-transform: uppercase;
 	color: #302f2c;
 	text-align: center;
@@ -339,12 +353,14 @@ img{
 
 .text.who-we-are-jen img {
 	border-radius: 102px;}
-	
+
 .text.who-we-are-jen h3 {
-	font: 400 24px/28px "open sans";}
-	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 24px/28px;}
+
 .text.who-we-are-jen p {
-    font: 300 16px/24px 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 300 16px/24px;
 	color: #000000;}
 
 
@@ -359,27 +375,31 @@ img{
 }
 
 .text.killer h2{
-	font: 700 28px/26px "open sans";
-   	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 700 28px/26px;
+  text-transform: uppercase;
 	color: #c5c5c5;
 	text-align: center;
 	padding-top: 100px;}
-	
+
 .text.killer h3{
-	font: 400 16px/24px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 16px/24px;
 	color: #c5c5c5;
 }
 
 .text.killer p{
-	font: 400 12px/18px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 12px/18px;
 	color: #b5b5b5;
-	padding-top:0px;	
+	padding-top:0px;
 	padding-bottom: 28px;
 }
 
 
 .text.killer a{
-	xfont: 600 12px/18px "open sans";
+	xfont-family: 'Open Sans', sans-serif;
+	xfont-size:600 12px/18px;
 	color: #5fb881;
 }
 
@@ -395,9 +415,10 @@ img{
 .text.killer input{
 	background-color: #333;
 	border: none;
-	box-shadow: none !important; 
+	box-shadow: none !important;
 	color: #f0f0f0;
-	font: 300 14px/24px 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
+	font-size: 300 14px/24px;
 	height: 42px;
 	padding: 4px 12px 0px 12px;
 	margin-bottom: 0px;
@@ -409,9 +430,10 @@ img{
 .text.killer textarea {
 	background-color: #333;
 	border: none;
-	box-shadow: none !important; 
+	box-shadow: none !important;
 	color: #f0f0f0;
-	font: 300 14px/24px 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
+	font-size: 300 14px/24px;
 	height: 112px;
 	padding: 10px 12px 10px 12px;
 	xtext-align: center;
@@ -432,9 +454,10 @@ img{
 	background-color: #333;
 	border: none;
 	border-radius:28px;
-	box-shadow: none !important; 
+	box-shadow: none !important;
 	color: #c5c5c5;
-	font: 400 18px/24px 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 18px/24px;
 	height: 50px;
 	margin-top: 42px;
 	padding-bottom:6px;
@@ -460,7 +483,8 @@ img{
 
 
 .text.killer label {
-	font: 600 16px/24px 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
+	font-size: 600 16px/24px;
 	color: #999;
 	padding-bottom:8px;
 	text-align: left;
@@ -481,22 +505,25 @@ img{
 }
 
 .text.thanks h2{
-	font: 600 28px/32px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 600 28px/32px;
    	xtext-transform: uppercase;
 	color: #c5c5c5;
 	text-align: center;
 	padding-bottom: 24px;}
-	
+
 
 .text.thanks p{
-	font: 400 16px/24px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 16px/24px;
 	color: #b5b5b5;
 	padding-bottom: 82px;
 }
 
 
 .text.thanks a{
-	font: 600 16px/24px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 600 16px/24px;
 	color: #5fb881;
 }
 
@@ -519,20 +546,23 @@ img{
 }
 
 .text.passcode h2{
-	font: 600 28px/32px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 600 28px/32px;
    	xtext-transform: uppercase;
 	color: #c5c5c5;
 	xtext-align: left;
 	padding-bottom: 24px;}
-	
+
 .text.passcode p{
-	font: 400 14px/20px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 400 14px/20px;
 	color: #b5b5b5;
 	padding-bottom: 8px;
 }
 
 .text.passcode a{
-	font: 600 16px/24px "open sans";
+	font-family: 'Open Sans', sans-serif;
+	font-size: 600 16px/24px;
 	color: #5fb881;
 }
 
@@ -542,16 +572,17 @@ img{
 .text.passcode input{
 	background-color: #333;
 	border: none;
-	box-shadow: none !important; 
+	box-shadow: none !important;
 	color: #f0f0f0;
-	font: 300 14px/24px 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
+	font-size: 300 14px/24px;
 	height: 42px;
 	padding: 0px 12px 4px 12px;
 	xtext-align: center;
 	-webkit-font-smoothing: sub-antialiased;
 	-webkit-appearance: none;
 	width: 92%;}
-	
+
 .text.passcode input:focus {
 	background-color: #555;
 }
@@ -560,9 +591,10 @@ img{
 	background-color: #333;
 	border: none;
 	border-radius:28px;
-	box-shadow: none !important; 
+	box-shadow: none !important;
 	color: #fff;
-	font: 600 18px/24px 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
+	font-size: 600 18px/24px;
 	height: 52px;
 	margin-top: 18px;
 	text-align: center;
@@ -587,7 +619,8 @@ img{
 
 
 .text.passcode label {
-	font: 600 16px/24px 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
+	font-size: 600 16px/24px;
 	color: #999;
 	padding-bottom:8px;
 	text-align: left;
@@ -602,7 +635,7 @@ img{
 
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {
-			
+
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -611,51 +644,51 @@ img{
 			max-width: 460px;
 			height: 248px;
 		}
-		
-		#killerinc-nav-item{		
+
+		#killerinc-nav-item{
 			padding-right: 224px;}
 
 	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-	
-		#killerinc-nav-item{		
+
+		#killerinc-nav-item{
 			padding-right: 124px;}
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 530px) and (max-width: 767px) {
-		
+
 		img, iframe, object {
 			max-width: 400px;
 			height: auto;
 		}
-		
-		#killerinc-nav-item{		
+
+		#killerinc-nav-item{
 			padding-right: 0px;}
-			
+
 		#xkillerinc-nav-item{
-			display:none;} 
+			display:none;}
 
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 529px) {
-		
+
 		img, iframe, object {
 			max-width: 272px;
 			height: auto;
 		}
 
-		#killerinc-nav-item{		
+		#killerinc-nav-item{
 			padding-right: 32px;}
-			
+
 		#about-nav-item{
-			display:none;} 
+			display:none;}
 		#contact-nav-item{
-			display:none;} 
+			display:none;}
 		#xproducts-nav-item{
-			display:none;} 
-	
+			display:none;}
+
 	}
